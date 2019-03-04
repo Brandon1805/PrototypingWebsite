@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>BactoView: Technology</title>
+  <title>BactoView - Technology</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,14 +32,14 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">About us</a>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="ourteam.html">Team</a>
+		  </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Technology
 			  <span class="sr-only">(current)</span>
 			</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ourteam.html">Team</a>
-		  </li>
 		  <li class="nav-item">
             <a class="nav-link" href="websitebuild.html">Website Build</a>
 		  </li>
@@ -62,50 +62,91 @@
   <BR><BR>
     <!-- Heading Row -->
 	 <!-- Call to Action Well -->
-    <div class="row align-items-center text-white bgimg my-7">
-      <div class="col-lg-10 buffer">
+    <div class="row align-items-center text-white prodimg my-7">
+      <div class="col-lg-7 buffer">
         <h1 class="bold font-weight-light">Technology</h1>
-        <p>BactoView is a leader in cell monitoring technology. 
-		Through state of the art research, we hope to deliver next generation automated wet lab platforms for the monitoring of in vivo cultures. 
-		BactoView is a leader in cell monitoring technology. Through state of the art research, we hope to deliver next generation automated wet lab platforms for the monitoring of in vivo cultures.
-		BactoView is a leader in cell monitoring technology. 
-		Through state of the art research, we hope to deliver next generation automated wet lab platforms for the monitoring of in vivo cultures. 
+        <p>BactoView is utilizing its wide array of tools and expertise to engineer 
+		a platform for the real-time and precise measurement of cell density. Our first product,
+		the BactoViewer, was designed to be effective but minimalistic and affordable.  
 		</p>
       </div>
       <!-- /.col-md-4 -->
     </div>
-    <!-- /.row -->
 	<BR><BR>
-<h2>BactoViewer alpha</h2>
+    <!-- /.row -->
+	<div class="row">
+	 <div class="col-lg-9">
+	 
+<h2>Our product</h2>
+<div class="row">
+      <div class="col-lg-7">
+        <p>
+		The BactoViewer is a platform for the automated measurement of cell population within a flask culture. It quantifies cell population by measuring a culture's optical density (OD),
+		a measure of the amount of light transmitted through a culture. Optical Density is a commonly used standard for the measurement of cell density, and thus results obtained from
+		the BactoViewer are easily interpretable. </p>
 		<p>
-		Oxford Nanopore Technologies Ltd is a private company headquartered at the Oxford Science Park outside Oxford, UK, with satellite offices in Cambridge (UK), New York, Cambridge (US), Shanghai, and a broader commercial presence that includes Japan, Germany, France, India and France.
-</p><p>
-The Company was founded in 2005 to develop a disruptive, electronic, single-molecule sensing system based on nanopore science. The first product, MinION, was introduced into early access in 2014 and made commercially available in 2015. The scaled-up GridION was commercially launched in 2017 and PromethION in 2018.  Flongle is scheduled for release in 2018.  The Company has a rich development pipeline that includes solutions to enable any user, anywhere, including the mobile-phone-compatible SmidgION and low cost, portable sample prep Ubik.
-</p><p>
-The Company now has more than 350 employees from multiple disciplines including nanopore science, molecular biology and applications, informatics, engineering, electronics, manufacturing and commercialisation. The management team, led by CEO Dr Gordon Sanghera, has a track record of delivering disruptive technologies to the market.
-		</p><BR>
-	<h2>Monitoring cells</h2>
+		The Bactoviewer was designed with the needs of researchers in mind. Its main draw is its operability with standard flasks and shaking incubators. This circumvents the need for additional purchases and minimizes
+		the training required to use the product effectively. The Bactoviewer interfaces wirelessly with a standard personal computer and is equipped with an intuitive GUI as well as data visualization features 
+		to facilitate data analysis. A customizable threshold-based alarm system makes the device suitable for protein induction experiments. </p>
+		<p>	
+		The BactoViewer can be purchased for £100, far below the price of competing products. This purchase includes the device, a copy of the software bundle as well as an instruction manual for the device. 
+		The device comes with a year-long guarantee as well as free technical support for up to 2 years.  </p>
+      </div>
+	  <div class="col-lg-5">
+        <img width = 100% class="img-responsive align-items-center" id="image-marker" style="margin: 18px auto;" src="one.jpg" rel="margin: 18px auto;" alt="BactoViewer">
+      </div>
+</div>
+	
+<h2>Science and technology</h2>
+<button class="accordion"><h5>Optical Density as a tool for measuring bacterial population</h5></button>
+<div class="panel">
+  <p><img width = 100% height = 100% class="img-responsive align-items-center" id="image-marker" style="margin: 18px auto;" src="lightcells.png" rel="margin: 18px auto;" alt = "Optical density diagram">
+</p><p>When light passes through a culture, some of it gets scattered, resulting in less light detected on the other end. The amount of light dispersed increases with the amount of biomass in the culture, and hence the amount of light detected can be used as a measure of cell population. 
+</p>                    
+</div>
+
+<button class="accordion"><h5>Design of the BactoViewer</h5></button>
+<div class="panel">
+  <p><img width = 100% height = 100% class="img-responsive" id="image-marker" style="margin: 18px auto;" src="flasksetup.png" rel="margin: 18px auto;" alt="BactoViewer diagram">
+</p><p>The BactoViewer alpha works by shooting light into a culture flask with a mirror fixed inside. The reflected light is sent to a detector, and the amount of detected light is used as a measure of optical density. 
+</p>                    
+</div>
+
+<button class="accordion"><h5>Automated data collection and data processing</h5></button>
+<div class="panel">
+  <p><img width = 100% height = 100% class="img-responsive" id="image-marker" style="margin: 18px auto;" src="communication.png" rel="margin: 18px auto;" alt = "Data collection">
+</p><p>A Bluetooth module sends data from the Arduino to a computer. Here, data is processed and stored. Depending on the requirements of the given experiment, the data may be visualized or used to sound a threshold-based alarm. </p>                
+</div>
+<BR><BR>
+<h2>BactoViewer workflow</h2>
 <p>
-		Oxford Nanopore Technologies Ltd is a private company headquartered at the Oxford Science Park outside Oxford, UK, with satellite offices in Cambridge (UK), New York, Cambridge (US), Shanghai, and a broader commercial presence that includes Japan, Germany, France, India and France.
-</p></p>
-The Company was founded in 2005 to develop a disruptive, electronic, single-molecule sensing system based on nanopore science. The first product, MinION, was introduced into early access in 2014 and made commercially available in 2015. The scaled-up GridION was commercially launched in 2017 and PromethION in 2018.  Flongle is scheduled for release in 2018.  The Company has a rich development pipeline that includes solutions to enable any user, anywhere, including the mobile-phone-compatible SmidgION and low cost, portable sample prep Ubik.
-</p><p>
-The Company now has more than 350 employees from multiple disciplines including nanopore science, molecular biology and applications, informatics, engineering, electronics, manufacturing and commercialisation. The management team, led by CEO Dr Gordon Sanghera, has a track record of delivering disruptive technologies to the market.
-		</p><BR>
-		<h2>Get a quote</h2>
-<p>
-		Oxford Nanopore Technologies Ltd is a private company headquartered at the Oxford Science Park outside Oxford, UK, with satellite offices in Cambridge (UK), New York, Cambridge (US), Shanghai, and a broader commercial presence that includes Japan, Germany, France, India and France.
-</p></p>
-The Company was founded in 2005 to develop a disruptive, electronic, single-molecule sensing system based on nanopore science. The first product, MinION, was introduced into early access in 2014 and made commercially available in 2015. The scaled-up GridION was commercially launched in 2017 and PromethION in 2018.  Flongle is scheduled for release in 2018.  The Company has a rich development pipeline that includes solutions to enable any user, anywhere, including the mobile-phone-compatible SmidgION and low cost, portable sample prep Ubik.
-</p><p>
-The Company now has more than 350 employees from multiple disciplines including nanopore science, molecular biology and applications, informatics, engineering, electronics, manufacturing and commercialisation. The management team, led by CEO Dr Gordon Sanghera, has a track record of delivering disruptive technologies to the market.
-		</p><BR>
+<img width = 100% class="img-responsive" id="image-marker" style="margin: 18px auto;" src="workflow.png" rel="margin: 18px auto;" alt="Workflow">
+</p>
+               
+</div>
+<div class="col-lg-3 align-items-center">
+<section class="sidebar">
+                    
+	<h4>Contact us for a quote</h4>
+	<p>Tel: +44 (0)20 0000 0001</p>
+	<p>Email: john.doe57@bactoview.com</p>
+	<p><a href="contactus.html">Further contact details</a></p>
+
+    <h4>Quick links</h4>
+	<p><a href="ourproduct.html">Our product</a></p>
+	<p><a href="ourteam.html">Our team</a></p>
+	<p><a href="register.html">Registering a Domain</a></p>
+	<p><a href="websitebuild.html">Building the website</a></p>
+
+</section>
+</div>
+
   </div>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-dark topmarg">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; BactoView 2019</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -113,6 +154,22 @@ The Company now has more than 350 employees from multiple disciplines including 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
 
 </body>
 
