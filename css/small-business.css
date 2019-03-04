@@ -7,9 +7,65 @@ body {
   padding-top: 56px;
 }
 
-.buffer { margin-top:20px; margin-bottom:20px;}
+.buffer {margin-top:20px; margin-bottom:20px;}
 
 .bgimg {
-    background-image: url('stock.jpg');
+    background-image: url('banner.png');
     background-position: center;
+    height: 250px;
+    padding-left: 20px;
+}
+
+.webimg {
+    background-image: url('bannerweb.png');
+    background-position: center;
+    height: 250px;
+padding-left: 20px;
+}
+
+.prodimg {
+    background-image: url('bannerproduct.png');
+    background-position: center;
+    height: 250px;
+padding-left: 20px;
+}
+
+.hackimg {
+    background-image: url('bannerhack.png');
+    background-position: center;
+    height: 250px;
+padding-left: 20px;
+}
+
+.accordion {
+  margin-top:5px;
+  background-color: #223;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #223;
+  outline: none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 18 18px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  display: none;
+  overflow: hidden;
+}
+
+.topmarg {
+  margin-top:5px;
 }
