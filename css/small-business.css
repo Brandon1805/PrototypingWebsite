@@ -58,7 +58,7 @@ padding-left: 20px;
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 18 18px;
+  padding: 0px 18px;
   background-color: white;
   border-style: solid;
   border-width: 5px;
